@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav{ 
+    background-color: red;
+    box-sizing: border-box;
+    width: 20%;
+    height: 100vh;
+    padding-left: 25px;
+    float: left;
+    font-size: 30px;
+    position: fixed;
+    top: 0 ;
+    left: 0; 
+    color: white;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.nav h1{
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    display: block;
+}
+.list li a{
+    color: white;
+    text-decoration: none;  
+}
+.list li a:hover{
+    color:black;
+    background-color: white;
+    padding: 8px 150px 8px 5px;
+    cursor: pointer;
+    overflow: hidden;
+} 
+.pairent{
+    margin-left: 400px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.design{
+    padding-left: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.design h2{
+    color: red;
+}
+.design hr{
+    border:5px red solid;
+    width: 5%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.photo div img{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.service{
+    clear: both;
+} 
+.service{
+    padding-left: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.service h2{
+    color: red;
+}
+.service hr{
+    border:5px red solid;
+    width: 5%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.service p{
+    font-size: 16px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.service> div{
+    padding-top: 75px;
+}
+.team >div{
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+}
+.team_leader{
+    width: 95%;
+    background-color:
+    rgb(234, 223, 223);
+}
+.team_leader img{
+    width: 100%;
+}
+.team1{
+    padding:20px;
+}
+.Packages{
+    clear: both;
+    padding-top: 75px;
+    padding-left: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.Packages h2{
+    color: red;
+}
+.Packages hr{
+    border:5px red solid;
+    width: 5%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.Packages p{
+    font-size: 16px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.space{
+    width: 50%;
+    float: left;
+}
+.basic{
+    width: 98%;
+      }
+.basic ul{
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    background-color: #d6d2d295;
+    margin-right: 10px;
+}
+.basic li{
+    border-bottom:
+    1px solid rgb(187, 186, 186);
+    padding: 20px 5px;
+    text-transform: capitalize;
+}
+.bg__dark{
+    background-color:#7a7676;
+    color: white;
+    font-size: 25px;
+    padding: 30px!important;
+}
+.but{
+    background-color: white;
+    padding:15px 25px;
+    border: none;
+    font-size: 18px;
+}
+.but:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.pro ul{
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    background-color: #d6d2d295;
+    margin-right: 10px;
+}
+.pro li{
+    border-bottom: 1px solid 
+    rgb(187, 186, 186);
+    padding: 20px 5px;
+    text-transform: capitalize;
+}
+.bg__red{
+    background-color:
+    rgb(243, 62, 62);
+    color: white;
+    font-size: 25px;
+    padding: 30px!important;
+}
+.but_2{
+    background-color:
+    rgb(243, 62, 62);
+    padding:15px 25px;
+    border: none;
+    font-size: 18px;
+}
+.but_2:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.contact{
+    clear: both;
+    padding-left: 20px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.contact h2{
+    color: red;
+    padding-top: 100px;
+}
+.contact hr{
+    border:5px red solid;
+    width: 5%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.contact p {
+    font-size: 16px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.contact_form{ 
+    font-size: 25px;
+    text-transform:capitalize;
+}
+.contact_form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px; 
+}
+.buttom{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.buttom:hover{
+    background-color:
+    cornflowerblue; 
+    color: black;
+    cursor: pointer;
+}
+.footer{
+    background-color:
+    rgb(154, 150, 150);;
+    text-align: right;
+    padding: 30px 60px;
+    margin-top: 70px;
+    text-transform:initial;
+}
+.footer a {
+    color: inherit;
+}
+.footer a:hover{
+    color: #d1c2c2;
+    cursor: pointer;
+}
